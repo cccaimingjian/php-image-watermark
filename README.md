@@ -76,8 +76,8 @@ Get the watermarked image data content, PNG format
 
 Save the watermarked image  
 保存图片到指定路径  
-`$content = $maker->encodeToJPG('PATH_TO_SAVE');`  
-`$content = $maker->encodeToPNG('PATH_TO_SAVE');`  
+`$maker->encodeToJPG('PATH_TO_SAVE');`  
+`$maker->encodeToPNG('PATH_TO_SAVE');`  
 
 Get the watermarked image before GD's function imageXXX()  
 You can encode into other formats or perform other operations by yourself  
